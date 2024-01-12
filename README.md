@@ -118,6 +118,6 @@ This tutorial outlines the post-install configuration of the open-source help de
 <p>
 <b>11. Conclusion:</b>
 
-	- The above steps conclude the post-install configuration of osTicket.
+- The above steps conclude the post-install configuration of osTicket.
 </p>
 <br />
