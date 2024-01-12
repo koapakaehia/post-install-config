@@ -30,130 +30,94 @@ This tutorial outlines the post-install configuration of the open-source help de
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<b>- Login to osTicket using the username and password you previously created.</b>
+<b>1. Login to osTicket:</b>
 
-- Visit the login page at http://localhost/osTicket/scp/login.php to access osTicket.
-</p>
-<br />
-
+- Access osTicket login page: http://localhost/osTicket/scp/login.php
+- Use the username and password created during installation.
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<b>- The Admin Panel is where we initiate the configuration of osTicket.</b>
-</p>
-<br />
+<b> 2. Access Admin Panel:</b>
 
+- Navigate to the Admin Panel after logging in. This is where the configuration starts.
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<b>Configure roles within the Admin Panel to define user responsibilities and permissions.</b>
+<b>3. Configure Roles:</b>
 
-- In the Admin Panel, go to Agents, then Roles.
-- Create a role named "SupremeAdmin," allow all permissions, and click "Add Role."
-</p>
-<br />
-
+- Go to Admin Panel -> Agents -> Roles
+- Create a role named "SupremeAdmin" with all permissions.
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<b>- Configure departments in the Admin Panel to organize and categorize support requests effectively.</b>
+<b>4. Configure Departments:</b>
 
-- Access Admin Panel, navigate to Agents, and select Departments.
+- Go to Admin Panel -> Agents -> Departments
 - Create a department named "SystemAdministrators."
-</p>
-<br />
-
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<b>- Configure teams within the Admin Panel to enhance collaboration and assignment of tasks.</b>
+<b>5. Configure Teams:</b>
 
-- Access the Admin Panel, navigate to Agents, and select Teams.
-Create a team named "Level II Support."
-</p>
-<br />
-
+- Go to AdminPanel -> Agents -> Teams
+- Create a team named "Level II Support."
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<b>- Enable the option to allow anyone to create tickets in the osTicket configuration settings.</b>
-
-- Ensure that the "Registration Required" option is unchecked in the osTicket configuration settings.
-</p>
-<br />
-
+<b>6. Allow Ticket Creation:</b>
+  
+- Ensure that "Registration Required" is not checked in Admin Panel -> Settings -> User Settings.
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<b>- Configure agents in the Admin Panel to assign roles, responsibilities, and permissions to individuals handling support requests.</b>
+<b>7. Configure Agents:</b>
 
-- In the Admin Panel, navigate to Agents and click "Add New" to configure and add new agents.
-</p>
-<br />
-
+- Go to AdminPanel -> Agents -> Add New
+- Create agents with usernames and passwords, allowing access.
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<b>- Configure agents in the Admin Panel to assign roles, responsibilities, and permissions to individuals handling support requests.</b>
+<b>8. Configure Users:</b>
 
-- Grant access to the newly created agent account.
-</p>
-<br />
-
+- Switch to the Agent Panel.
+- Go to Agent Panel -> Users -> Add New
+- Create new users.
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<b>- Configure agents in the Admin Panel to assign roles, responsibilities, and permissions to individuals handling support requests.</b>
+<b>9. Configure SLA:</b>
 
-- Grant access to the newly created agent account.
-</p>
-<br />
-
+- Go to AdminPanel -> Manage -> SLA
+- Define SLA levels:
+  - Sev-A (1 hour, 24/7)
+  - Sev-B (4 hours, 24/7)
+  - Sev-C (8 hours, business hours)
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<b>- Configure users in the Admin Panel to set up and manage customer accounts for interacting with the help desk system.</b>
+<b>10. Configure Help Topics:</b>
 
-- In the Agent Panel, go to Users and click "Add New."
-- Switch to the Agent Panel at the top.
-</p>
-<br />
-
+- Go to AdminPanel -> Manage -> HelpTopics
+- Create help topics:
+  - Business Critical Outage
+  - Personal Computer Issues
+  - Equipment Request
+  - Password Reset
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<b>- During the configuration, create a new user in the Agent Panel.</b>
-</p>
-<br />
+<b>11. Conclusion:</b>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-<b>- Define and configure SLA (Service Level Agreements) in the Admin Panel to establish response and resolution time standards for support requests.</b>
-
-- In the Admin Panel, navigate to Manage and select SLA.
-- Create the following SLA entries:
-  - Sev-A: 1 hour, 24/7
-  - Sev-B: 4 hours, 24/7
-  - Sev-C: 8 hours, business hours.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-<b>- Congratulations! The post-install configuration for osTicket is now complete.</b>
+	- The above steps conclude the post-install configuration of osTicket.
 </p>
 <br />
