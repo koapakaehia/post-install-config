@@ -27,7 +27,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 <h2>Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/oTIMWzB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <b>1. Login to osTicket:</b>
@@ -35,14 +35,15 @@ This tutorial outlines the post-install configuration of the open-source help de
 - Access osTicket login page: http://localhost/osTicket/scp/login.php
 - Use the username and password created during installation.
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/nzfEjws.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <b> 2. Access Admin Panel:</b>
 
 - Navigate to the Admin Panel after logging in. This is where the configuration starts.
+  - If you see "Agent Panel," it means you are in the Admin Panel.
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/LiUb07C.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <b>3. Configure Roles:</b>
@@ -50,7 +51,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 - Go to Admin Panel -> Agents -> Roles
 - Create a role named "SupremeAdmin" with all permissions.
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/TwqJ7gC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <b>4. Configure Departments:</b>
@@ -58,7 +59,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 - Go to Admin Panel -> Agents -> Departments
 - Create a department named "SystemAdministrators."
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/wV94P47.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <b>5. Configure Teams:</b>
