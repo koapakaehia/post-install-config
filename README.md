@@ -67,14 +67,18 @@ This tutorial outlines the post-install configuration of the open-source help de
 - Go to AdminPanel -> Agents -> Teams
 - Create a team named "Level II Support."
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/05cGhJu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <b>6. Allow Ticket Creation:</b>
   
 - Ensure that "Registration Required" is not checked in Admin Panel -> Settings -> User Settings.
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/I2Aatqf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<p>
+<img src="https://i.imgur.com/5hC0Jtp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <b>7. Configure Agents:</b>
