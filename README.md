@@ -74,7 +74,7 @@ This tutorial outlines the post-install configuration of the open-source help de
   
 - Ensure that "Registration Required" is not checked in Admin Panel -> Settings -> User Settings.
 <p>
-<img src="https://i.imgur.com/I2Aatqf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/vY5ejT3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
