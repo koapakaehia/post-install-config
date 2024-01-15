@@ -78,24 +78,28 @@ This tutorial outlines the post-install configuration of the open-source help de
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/5hC0Jtp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/qq7ptG7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <b>7. Configure Agents:</b>
 
 - Go to AdminPanel -> Agents -> Add New
-- Create agents with usernames and passwords, allowing access.
+- Create agents (Jane Doe and John Doe) with usernames and passwords, allowing access.
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/IcJmqnR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <b>8. Configure Users:</b>
 
 - Switch to the Agent Panel.
-- Go to Agent Panel -> Users -> Add New
-- Create new users.
+- Go to Agent Panel -> Users -> Add User.
+- Create new users (Karen Karen and Ken Ken.)
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Iqm2f05.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<p>
+<img src="https://i.imgur.com/A5pGCB7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <b>9. Configure SLA:</b>
@@ -106,7 +110,11 @@ This tutorial outlines the post-install configuration of the open-source help de
   - Sev-B (4 hours, 24/7)
   - Sev-C (8 hours, business hours)
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/f53h23t.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<p>
+<img src="https://i.imgur.com/A646AMx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <b>10. Configure Help Topics:</b>
