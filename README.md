@@ -84,7 +84,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 <b>7. Configure Agents:</b>
 
 - Go to AdminPanel -> Agents -> Add New
-- Create agents (Jane Doe and John Doe) with usernames and passwords, allowing access.
+- Create agents (Jane Doe and repeat steps for,John Doe) with usernames and passwords, allowing access.
 <p>
 <img src="https://i.imgur.com/IcJmqnR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
